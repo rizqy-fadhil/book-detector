@@ -1,0 +1,16 @@
+# Mengabaikan environment Python
+yolo_env/
+venv/
+env/
+.venv/
+
+# Mengabaikan folder dataset yang berat
+dataset/
+
+# Mengabaikan cache & file sementara Python
+__pycache__/
+*.pyc
+.DS_Store
+
+# Mengabaikan model bawaan (biar yang ke-upload cuma model best.pt di folder runs)
+yolov8n.pt
